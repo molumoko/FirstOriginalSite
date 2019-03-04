@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+  }
+
+body{
+    margin:0;
+    font-family: "Hikagino Kaku Gothic ProN";
+    font-size: 14px;
+    color: #888;
+    font-weight: 400;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width:1170px;
+    width:100%;
+    padding:0 15%;
+    margin:0 auto;
+}
+
+.top-wrapper{
+    margin: 0 auto;
+    padding:120px 0 120px 0;
+    text-align: center;
+    color: white;
+    background-image:url(massage1.png);
+    background-size:cover;
+    
+}
+
+header{
+    height:50px;
+    width: 100%;
+    background-color: aliceblue;
+    position:fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.header-logo{
+    width:130px;
+    margin-top:10px;
+    color: #777;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.header-left{
+    float: left;
+}
+
+.header-right{
+    float:right;
+}
+.header-right a{
+    float:left;
+    color:black;
+    padding: 0 25px;
+    display:block;
+}
+
+.header-right a:hover {
+    background-color: rgba(46, 116, 247, 0.699);
+  }
+ 
+.openTime-wrapper{
+    padding-bottom: 80px;
+    padding-left:5%;
+    padding-right:5%;
+    background-color:#f7f7f7;
+    text-align:center;
+}  
+.heading{
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color:#747dfc;
+}
+.heading h2{
+    font-weight:h2;
+}
+.timeTable-list li{
+    list-style:none;
+}
+.course{
+    float:left;
+}
