@@ -23,9 +23,9 @@ body{
     padding:120px 0 120px 0;
     text-align: center;
     color: white;
-    background-image:url(massage1.png);
+    background-image:url(massage4.png);
     background-size:cover;
-    
+    color:#703e43;
 }
 
 header{
@@ -58,11 +58,12 @@ header{
     padding: 0 25px;
     display:block;
 }
-
 .header-right a:hover {
     background-color: rgba(46, 116, 247, 0.699);
   }
- 
+  .header-icon-iphone{
+      display:none;
+  }
 .openTime-wrapper{
     padding-bottom: 80px;
     padding-left:5%;
@@ -74,6 +75,7 @@ header{
     padding-top: 80px;
     padding-bottom: 50px;
     color:#747dfc;
+    text-align:center;
 }
 .heading h2{
     font-weight:h2;
@@ -81,6 +83,37 @@ header{
 .timeTable-list li{
     list-style:none;
 }
+.medicalFee-wrapper{
+    padding-bottom:100px;
+    padding-left:5px;
+    padding-right:5px;
+    background-color:#e8e8e8;
+    text-align: center;
+}
 .course{
     float:left;
+    width:100%;
+    margin-bottom:15px;
+}
+.course-icon img{
+    width: 100%;
+    height: 60%;
+    object-fit: cover; /* この一行を追加するだけ！ */
+}
+.course-icon p{
+    font-size: 20px;
+}
+.text-contents{
+    width:80%;
+    display:inline-block;
+    margin-bottom:50px;
+    font-size: 13px;
+}
+
+footer{
+    text-align:center;
+}
+/* --------------------  ※↓はレスポンシブデザインの設定-------------------- */
+.clear{
+    clear:left;    
 }
