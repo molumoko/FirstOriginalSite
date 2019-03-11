@@ -12,7 +12,7 @@ body{
 }
 
 .container{
-    max-width:1170px;
+    max-width:100%;
     width:100%;
     padding:0 15%;
     margin:0 auto;
@@ -21,15 +21,14 @@ body{
 .top-wrapper{
     margin: 0 auto;
     padding:120px 0 120px 0;
-    text-align: center;
     color: white;
     background-image:url(massage4.png);
     background-size:cover;
     color:#703e43;
+    text-align: center;
 }
-
 header{
-    height:50px;
+    height:70px;
     width: 100%;
     background-color: aliceblue;
     position:fixed;
@@ -48,7 +47,6 @@ header{
 .header-left{
     float: left;
 }
-
 .header-right{
     float:right;
 }
@@ -57,12 +55,33 @@ header{
     color:black;
     padding: 0 25px;
     display:block;
+    transition: all 0.5s;
+
 }
 .header-right a:hover {
     background-color: rgba(46, 116, 247, 0.699);
   }
-  .header-icon-iphone{
-      display:none;
+
+.btn-wrapper{
+    text-align: center;
+    margin: 20px 0;
+  }
+.btn {
+    padding: 8px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-align: center;
+  }
+    .btn:hover {
+    opacity: 1;
+  }
+  .fas{
+    margin-right: 5px;
+  }
+  .reserve{
+      background-color: #08af5f
   }
 .openTime-wrapper{
     padding-bottom: 80px;
@@ -110,10 +129,18 @@ header{
     font-size: 13px;
 }
 
-footer{
-    text-align:center;
-}
+footer {
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
 /* --------------------  ※↓はレスポンシブデザインの設定-------------------- */
 .clear{
     clear:left;    
 }
+.menu-icon {
+    color: gray;
+    float: right;
+    font-size: 30px;
+    padding: 20px 0;
+    display:none;
+  }
