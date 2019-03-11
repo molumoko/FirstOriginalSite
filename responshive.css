@@ -1,4 +1,18 @@
+@media all and (max-width: 1000px){
+
+}
 /* スマホ向けレイアウト */
-@media (max-width: 670px) {
-    
+@media all and (max-width: 670px) {
+    .btn{
+        width: 100%;
+    }
+    .header-right{
+        display:none;
+    }
+    .menu-icon{
+        display:block;
+    }
+    footer{
+        text-align: center;
+    }
 }
